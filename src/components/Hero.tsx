@@ -73,8 +73,8 @@ const Hero = () => {
             <div className="relative z-10">
               <div className="aspect-[4/5] bg-primary-foreground/10 rounded-2xl overflow-hidden shadow-glow">
                 <img 
-                  src="./office-meeting.png" 
-                  alt="Hon. Blessing Onuh in her official office"
+                  src="./blessing-onuh-profile.jpg" 
+                  alt="Hon. Blessing Onuh"
                   className="w-full h-full object-cover"
                 />
               </div>
