@@ -88,12 +88,11 @@ const About = () => {
           {/* Image Section */}
           <div className="relative">
             <div className="aspect-[4/5] bg-gradient-primary rounded-2xl overflow-hidden shadow-elegant">
-              <div className="w-full h-full bg-gradient-to-br from-primary-light to-primary flex items-center justify-center">
-                <div className="text-center text-primary-foreground">
-                  <p className="text-4xl font-bold mb-2">Hon. Blessing Onuh</p>
-                  <p className="text-lg opacity-80">Official Portrait</p>
-                </div>
-              </div>
+              <img 
+                src="/house-chamber.png" 
+                alt="Hon. Blessing Onuh in the House of Representatives chamber"
+                className="w-full h-full object-cover"
+              />
             </div>
             
             {/* Quote Card */}

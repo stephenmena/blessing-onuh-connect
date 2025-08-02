@@ -72,9 +72,11 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <div className="aspect-[4/5] bg-primary-foreground/10 rounded-2xl overflow-hidden shadow-glow">
-                <div className="w-full h-full bg-gradient-to-br from-primary-light to-primary flex items-center justify-center">
-                  <p className="text-6xl font-bold text-primary-foreground opacity-20">BO</p>
-                </div>
+                <img 
+                  src="/office-meeting.png" 
+                  alt="Hon. Blessing Onuh in her official office"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
             {/* Floating Elements */}
