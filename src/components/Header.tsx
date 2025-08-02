@@ -49,7 +49,7 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
-              <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center">
+              <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-xl">BO</span>
               </div>
               <div>
